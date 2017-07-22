@@ -20,7 +20,7 @@ Définition des classes selon les programmes :
 # Serveur Central
 
 - ServeurEcouteClient.java : Thread attendant la connexion des clients sur un port donné.
-- ThreadClient : Thread de dialogue avec un client connecté au serveur.
+- ThreadClient : Thread de dialogue avec un client connecté au serveur. 
 - ServeurEcoutePart.java : Thread attendant la connexion des participants sur un port donné.
 - ThreadPart.java : Thread de dialogue avec un participant connecté au serveur.
 - Participant.java : Décrit un participant avec notamment, son ip, sa disponibilité, sa liste d'avis et s'il est banni ou non.
